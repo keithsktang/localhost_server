@@ -1,0 +1,116 @@
+html,
+body {
+  overflow-x: hidden;
+  font-family: Heiti SC, Verdana;
+  background-color: #6e6e6e;
+}
+  a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:active {
+    text-decoration: underline;
+}
+/*div {
+  border: 2px solid white;
+  color: white;
+}*/
+.about_me {
+  height: 100vh;
+  background-color: #6e6e6e;
+  color: white;
+}
+
+.nav, .port_nav {
+  word-spacing: 2em;
+  width: 50%;
+  text-align: center;
+}
+
+.port_nav{
+text-align: right;
+}
+.brand {
+  font-family: Arial Black;
+  color: lightgreen;
+  letter-spacing: .8em;
+  padding: 2em 0 0 15em;
+}
+#K, #T {
+  font-size: 1.7em;
+  color: chocolate;
+}
+
+#chars {
+  font-size: ;
+  color: red;
+}
+.story {
+  width: 20vw;
+  padding: 20vh 3em 0 15em;
+}
+
+.portrait {
+  width: 40vw;
+  float: right;
+    margin: 0 5em;
+}
+
+img#bw {
+  width: 30vw;
+  margin-left: 3em;
+ }
+#social {
+
+  padding-left: 15em;
+
+}
+#social img {
+  width: 30px;
+}
+
+
+
+
+#footer{
+  text-align: center;
+  word-spacing: 1em;
+}
+
+#LLL {
+  word-spacing: 5em;
+}
+
+.portfolio {
+  background-image: url("https://drive.google.com/uc?export=view&id=0B0vUVSK9vGA8NVVzWUlYTDBPZGs");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+#table_div{
+  height: 100vh;
+  width: 100vw;
+}
+#table_div table{
+  width: 480px;
+  /* border: solid white; */
+  margin: 40vh auto;
+}
+td{
+  /* border: solid yellow; */
+}
+
+#table_div img {
+  width: 200px;
+  padding: 1em;
+}
