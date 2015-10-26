@@ -1,11 +1,9 @@
 require 'sinatra'
 
-get '/' do
-  "Hello World!"
+get "/" do
+  File.read(File.join('public', 'index.html'))
 end
 
 get "/sinatra" do
    "Hello Sinatra"
 end
-
-set :public_folder, '/portfolio'
